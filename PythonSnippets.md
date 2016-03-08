@@ -1,3 +1,11 @@
+Deleting something from a string / stripping (Useful for removing linebreaks(\n))
+
+str = "ABCWhateveR\nWhateverAgaiN\n"
+str.replace("\n","")
+>>"ABCWhateveRWhateverAgaiN"
+
+** split() can also be used, but in some cases it can't delete the linebreaks. Such as, after reading a file and splitting it by something (let's say semicolon), then trying to split it. If there were linebreaks before a semicolon it won't remove the linebreaks. **
+
 Implementing enum (similar to enum in Java)
 
 def enum(**enums):
