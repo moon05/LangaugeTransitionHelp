@@ -1,9 +1,9 @@
-## Difference between list methods append and extend (very important):
+### Difference between list methods append and extend (very important):
 
 Easier just to go to the link:
 http://stackoverflow.com/questions/252703/python-append-vs-extend
 
-##Deleting something from a string / stripping (Useful for removing linebreaks(\n))
+###Deleting something from a string / stripping (Useful for removing linebreaks(\n))
 
 str = "ABCWhateveR\nWhateverAgaiN\n"
 str.replace("\n","")
@@ -11,7 +11,7 @@ str.replace("\n","")
 
 */ split() can also be used, but in some cases it can't delete the linebreaks. Such as, after reading a file and splitting it by something (let's say semicolon), then trying to split it. If there were linebreaks before a semicolon it won't remove the linebreaks. /*
 
-##Implementing enum (similar to enum in Java)
+###Implementing enum (similar to enum in Java)
 
 def enum(**enums):
   return type('Enum', (), enums)
