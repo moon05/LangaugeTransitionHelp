@@ -1,3 +1,26 @@
+### Getting argument through command line
+
+import sys
+
+arg1 = sys.argv[1]
+arg2 = sys.argv[2]
+
+### Getting current directory
+
+import os
+
+path = os.getcwd()
+
+### Reversing a list
+
+def ListReverse(List):
+	
+	temp = List
+	temp = temp[::-1]
+	return temp
+
+*sometimes reverse() doesn't work*
+
 ### Difference between list methods append and extend (very important):
 
 Easier just to go to the link:
