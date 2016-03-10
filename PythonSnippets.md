@@ -67,4 +67,7 @@ Connectives.AND
 Connectives.OR
 >>1
 
-ref: http://stackoverflow.com/questions/36932/how-can-i-represent-an-enum-in-python
+Ref:
+http://stackoverflow.com/questions/36932/how-can-i-represent-an-enum-in-python
+http://stackoverflow.com/questions/8305518/switching-keys-and-values-in-a-dictionary-in-python
+http://stackoverflow.com/questions/3869487/how-do-i-create-a-dictionary-with-keys-from-a-list-and-values-defaulting-to-say
