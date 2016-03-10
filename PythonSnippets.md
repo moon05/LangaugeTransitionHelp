@@ -21,6 +21,18 @@ def ListReverse(List):
 
 *sometimes reverse() doesn't work*
 
+### Switching the keys and values of a dictionary
+
+def Switch_KeysVals(dictionary):
+	new_dict = {y:x for x,y in dictionary.iteritems()}
+	return new_dict
+
+### Generatign a dictionary with keys from a given list
+
+def DictFromKeyList(List):
+	newdict = dict((element,None) for element in List)
+	return newdict
+
 ### Difference between list methods append and extend (very important):
 
 Easier just to go to the link:
